@@ -72,10 +72,18 @@ img {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.3rem;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: 0.5px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
 }
 
 .logo span {
