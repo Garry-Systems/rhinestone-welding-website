@@ -87,6 +87,7 @@ img {
 .logo img {
   height: 50px;
   width: auto;
+  mix-blend-mode: lighten;
 }
 
 .logo span {
