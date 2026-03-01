@@ -1,0 +1,17 @@
+# Original source images (large PNG/JPG files before WebP conversion)
+images/Rhinestone_Welding_Works/*.png
+images/Rhinestone_Welding_Works/*.jpg
+images/Rhinestone_Welding_Logo/*.png
+!images/Rhinestone_Welding_Logo/google_logo.png
+
+# Keep optimized WebP files
+!images/Rhinestone_Welding_Works/*.webp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (from image optimization)
+node_modules/
+package.json
+package-lock.json
