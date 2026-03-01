@@ -815,3 +815,41 @@ img {
     flex-direction: column;
   }
 }
+
+/* ===== FLOATING CALL BUTTON ===== */
+.floating-call {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(107, 163, 214, 0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+}
+
+.floating-call:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 28px rgba(107, 163, 214, 0.5);
+}
+
+.floating-call svg {
+  width: 28px;
+  height: 28px;
+  fill: #fff;
+}
+
+/* ===== FACEBOOK ICON ===== */
+.social-links a svg,
+.contact-item .icon svg {
+  width: 1.2em;
+  height: 1.2em;
+  fill: currentColor;
+  vertical-align: middle;
+}
