@@ -4,6 +4,10 @@ images/Rhinestone_Welding_Works/*.jpg
 images/Rhinestone_Welding_Logo/*.png
 !images/Rhinestone_Welding_Logo/google_logo.png
 
+# Raw phone-camera originals dropped at images/ root for triage — not for the site
+images/IMG_*
+images/VID_*
+
 # Keep optimized WebP files
 !images/Rhinestone_Welding_Works/*.webp
 

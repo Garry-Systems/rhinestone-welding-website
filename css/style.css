@@ -381,6 +381,39 @@ img {
   transform: scale(1.05);
 }
 
+/* ===== DIESEL CALLOUT ===== */
+.diesel-callout {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  padding: 36px 32px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.diesel-callout .eyebrow {
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.diesel-callout h2 {
+  font-size: 1.7rem;
+  margin-bottom: 14px;
+  line-height: 1.25;
+  color: var(--chrome-light);
+}
+
+.diesel-callout p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
 /* ===== CTA BANNER ===== */
 .cta-section {
   text-align: center;
